@@ -1,3 +1,4 @@
+<!-- Hangman Game -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,6 +8,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="hangman.css" />
     <title>Hangman Game</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        .theme, .new_game {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: 0.3s;
+            border-radius: 10px;
+        }
+
+        .theme:hover, .new_game:hover {
+            background: #2980b9;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,7 +70,7 @@
             </div>
         </div>
         <div class="right_side">
-            <h1>Hangman game</h1>
+            <h1>Hangman Game</h1>
             <div class="choose_theme">
                 Choose a theme<br><br>
                 <button type="button" class="theme" value="0">City</button>
@@ -38,7 +82,7 @@
             <div id="word_display"></div><br>
             <div id="keybord"></div>
             <br>
-            <button type="button" class="new_game">New game</button>
+            <button type="button" class="new_game">New Game</button>
         </div>
     </div>
     <script src="hangman.js"></script>
