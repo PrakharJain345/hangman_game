@@ -35,6 +35,14 @@ document.addEventListener("DOMContentLoaded", () => {
           "Leipzig",
           "Liverpool",
           "Florence",
+          "Barcelona",
+          "Paris",
+          "Rome",
+          "Tokyo",
+          "Berlin",
+          "New York",
+          "London",
+          
         ],
       },
       {
@@ -45,6 +53,11 @@ document.addEventListener("DOMContentLoaded", () => {
           "Watermelon",
           "Blackberry",
           "Dragon fruit",
+          "Avocado",
+          "Banana",
+          "Apple",
+          "Orange",
+          "Grape",
         ],
       },
       {
